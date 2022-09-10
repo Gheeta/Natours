@@ -1,0 +1,20 @@
+{
+  "name": "master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss CSS/st.css ",
+    "compile:sass": "node-sass sass/main.scss CSS/st.comp.css -w",
+    "concat:css ": "concat -o CSS/st.contact.css CSS/icon-font.css CSS/st.comp.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "node-sass": "^4.13.1"
+  }
+}
